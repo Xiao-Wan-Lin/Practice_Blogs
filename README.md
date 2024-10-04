@@ -7,7 +7,7 @@ A simple blog created with PHP
 - Use Firebase for data storage
 - The webpage is created using RWD (Responsive Web Design)
 
-## Introduction
+## File Introduction
 - The folders for Assets, CSS, Fonts, and JS contain jQuery files.
 - Article.php: Page displaying the articles posted by the user.
 - Article2.php: Visitor view showing all articles.
