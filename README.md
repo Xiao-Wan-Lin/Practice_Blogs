@@ -1,6 +1,9 @@
 # Practice_Blogs
 A simple blog created with PHP
 
+![螢幕擷取畫面 2024-10-04 200041](https://github.com/user-attachments/assets/904a678b-5a8c-4758-95d5-cd0bf4cb0c11)
+
+
 ## Introduction
 - Users can log in, register an account, post articles, edit their own content, and delete previously posted articles
 - Users can see posts made by others in various categories
