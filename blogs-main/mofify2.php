@@ -47,7 +47,7 @@
       <?php
         if(isset($_POST['des'])){
           $tran = str_replace(array("\n"),"<br>",$_POST['des']); //將textarea的\n轉成<br>
-          $tran1 = str_replace(array("\r"),"",$e04); //將textarea的\r轉成<br>
+          $tran1 = str_replace(array("\r"),"",$tran); //將textarea的\r轉成<br>
         }
         date_default_timezone_set('Asia/Taipei'); //取得時間
         $d = date('Y/m/d H:i:s');
