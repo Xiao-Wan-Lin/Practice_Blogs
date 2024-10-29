@@ -46,14 +46,14 @@
 
       <?php
         if(isset($_POST['des'])){
-          $e04 = str_replace(array("\n"),"<br>",$_POST['des']); //將textarea的\n轉成<br>
-          $e04e04 = str_replace(array("\r"),"",$e04); //將textarea的\r轉成<br>
+          $tran = str_replace(array("\n"),"<br>",$_POST['des']); //將textarea的\n轉成<br>
+          $tran1 = str_replace(array("\r"),"",$e04); //將textarea的\r轉成<br>
         }
         date_default_timezone_set('Asia/Taipei'); //取得時間
         $d = date('Y/m/d H:i:s');
       ?>
       
-      var new_des="<?php echo $e04e04; ?>";
+      var new_des="<?php echo $tran1; ?>";
       var new_d="<?php echo $d; ?>";
       
       var ref2=db.collection(new_sort).doc(id);
